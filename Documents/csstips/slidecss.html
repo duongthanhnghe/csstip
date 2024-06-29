@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Tao. Nghê</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #001c1a;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+        font-family: "poppins";
+        margin: 2rem;
+      }
+      .box {
+        width: 450px;
+      }
+      .slider {
+        display: grid;
+        grid-auto-flow: column;
+        scroll-behavior: auto;
+        gap: 1.2rem;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+      }
+      .slider::-webkit-scrollbar {
+        display: none;
+      }
+      .card {
+        scroll-snap-align: start;
+        border-radius: 30px;
+        min-height: 200px;
+        min-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .card:nth-child(1) {
+        background: linear-gradient(-229deg, #d66d75, #e29587);
+      }
+
+      .card:nth-child(2) {
+        background: linear-gradient(-229deg, #20002c, #cbb4d4);
+      }
+
+      .card:nth-child(3) {
+        background: linear-gradient(-229deg, #c33764, #1d2671);
+      }
+
+      .card:nth-child(4) {
+        background: linear-gradient(-229deg, #f7971e, #ffd200);
+      }
+
+      .card:nth-child(5) {
+        background: linear-gradient(-229deg, #34e89e, #0f3443);
+      }
+
+      .card:nth-child(6) {
+        background: linear-gradient(-229deg, #6190e8, #a7bfe8);
+      }
+
+      .card:nth-child(7) {
+        background: linear-gradient(-229deg, #44a08d, #093637);
+      }
+    </style>
+    <div class="box">
+      <div class="slider">
+        <div class="card">
+          <h1>Item 1</h1>
+        </div>
+        <div class="card">
+          <h1>Item 2</h1>
+        </div>
+        <div class="card">
+          <h1>Item 3</h1>
+        </div>
+        <div class="card">
+          <h1>Item 4</h1>
+        </div>
+        <div class="card">
+          <h1>Item 5</h1>
+        </div>
+        <div class="card">
+          <h1>Item 6</h1>
+        </div>
+        <div class="card">
+          <h1>Item 7</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
